@@ -20,12 +20,13 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    
+
 }
+
 nav ul li a {
     text-decoration: none;
     color: antiquewhite;
-    
+
 }
 
 section {
@@ -38,10 +39,16 @@ section {
 article {
     text-align: center;
     margin: 10px;
+    background-color: #cec1c1;
+    border-radius: 5%;
+    padding: 10px;
 }
-article  img {
+
+article img {
     width: 150px;
     height: 200px;
+    border-radius: 5%;
+
 }
 
 footer {
