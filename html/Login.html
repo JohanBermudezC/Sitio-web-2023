@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login FitFox</title>
+    <link rel="stylesheet" href="../css/Login.css">
 </head>
+
 <body>
-    <a href="../index.html">Inicio</a>
-    <form id="form_register">
-        <label for="nombres">Nombres</label>
-        <input type="text" id="nombres" size="30" placeholder="Please enter your name" onblur="validate()" autofocus>
+    <header>
+        <div id="logo">
+            <img src="../multimedia/Logo.png">
+        </div>
+        <h1>FitFox</h1>
+        <div id="links">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/Catalogo.html">Catalogo</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form_register">
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" size="30" placeholder="Please enter your name" onblur="validate()"
+                autofocus>
 
-        <br>
+            <br>
 
-        <label for="apellidos">Apellidos</label>
-        <input type="text" id="apellidos" size="30" placeholder="Please enter your family name">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" size="30" placeholder="Please enter your family name">
 
-        <br>
+            <br>
 
-        <button type="submit">Registrarse</button>
-        <button type="reset">Limpiar</button>
+            <button type="submit">Registrarse</button>
+            <button type="reset">Limpiar</button>
 
-        <br>
+            <br>
 
-        <label id="validation">
+            <label id="validation">
 
-        </label>
-    </form>
-   <script src="../js/login.js"></script>
+            </label>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 FitFox</p>
+    </footer>
+    <script src="../js/login.js"></script>
 </body>
+
 </html>
